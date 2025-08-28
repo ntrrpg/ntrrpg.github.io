@@ -1,0 +1,85 @@
+<!DOCTYPE html><html><head><title>绅士游戏库｜黄油游戏：牛头人、RPG、SLG、PC端、安卓端_黄油游戏资源库</title><meta charset="utf-8"><meta name="renderer" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="applicable-device" content="pc,mobile"><meta name="author" content="ntrrpg"><meta name="description" content=""><meta name="keywords" content=""><link rel="icon" href="/static/git/default/favicon.ico"><link rel="apple-touch-icon" href="/static/git/default/logo.png"><style>
+html {color: #333333;background: #ffffff;scroll-behavior: smooth;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;-moz-text-size-adjust: 100%;text-size-adjust: 100%;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-family: 'Cascadia Code', Consolas, Helvetica, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;overflow-y: auto;font-size: 16px;}
+html[transition] {transition: all 500ms ease;}
+body {max-width: 680px;padding: 0 14px;margin: 0 auto;}
+* {-webkit-tap-highlight-color: transparent;}
+ol, ul {list-style: none;}
+p, h1, h2, h3, h4, h5, ul, ol, li, blockquote {padding: 0;margin: 0;}
+a {color: inherit;text-decoration: none;}
+input, select, textarea {font-family: inherit;outline: 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;border: none;}
+pre, code {font-family: inherit;}
+input:-webkit-autofill {-webkit-text-fill-color: #333333 !important;-webkit-transition: background-color 2592000s ease-in-out 0s;transition: background-color 2592000s ease-in-out 0s;}
+::-webkit-scrollbar {width: 5px;height: 5px;background-color: transparent;}
+::-webkit-scrollbar-thumb {border-radius: 2px;background-color: #999999;}
+::selection {background-color: #4a4a4a;color: #f9f9f9;}
+.hide {display: none !important;}
+
+.ntrrpg-h {padding: 40px 0;display: flex;align-items: center;justify-content: space-between;}
+.ntrrpg-h .logo {flex-shrink: 0;width: 40px;height: 40px;border-radius: 50%;margin-right: 10px;-webkit-user-drag: none;box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.18);background-image: url("/static/git/default/logo.jpg");background-size: cover;}
+.ntrrpg-h .ntrrpg-m {margin-right: -9px;text-align: right;user-select: none;}
+.ntrrpg-h .ntrrpg-m a {display: inline-block;font-size: 16px;margin: 4px 9px;white-space: nowrap;user-select: auto;}
+.ntrrpg-f {padding: 15px 0;font-size: 14px;}
+.ntrrpg-f a {text-decoration: underline;color: #000000;padding: 0 4px;white-space: nowrap;}
+.ntrrpg-f-btn {position: fixed;z-index: 99;width: 32px;height: 32px;cursor: pointer;background-color: rgba(0, 0, 0, 0.4);border-radius: 2px;display: flex;align-items: center;justify-content: center;font-size: 0;}
+.ntrrpg-f-btn i {font-size: 22px;background-color: #ffffff;}
+
+.ntrrpg{font-size: 16px;line-height: 1.7;}
+.ntrrpg h1{font-size:22px;line-height:2.4; margin: 10px 0;padding: 0;color: #222;font-weight:bold;}
+.ntrrpg  h2,.ntrrpg  h3{font-size:16px;line-height:1.8; font-weight:bold;margin:0 0 10px 0;padding: 0}
+.ntrrpg  h2{font-size:18px;border-bottom:1px solid #eee;line-height:2.0;border-left:4px solid #999;padding-left:6px;}
+.ntrrpg p{margin:0 0 10px 0;line-height:1.6;}
+.ntrrpg a{color:#0267FF;}
+.ntrrpg a:hover{text-decoration: underline;}
+.ntrrpg img{max-width: 100%;}
+.ntrrpg ul,.ntrrpg ol {padding-left: 0;margin-bottom:10px;}
+.ntrrpg ul li,.ntrrpg ol li {list-style-type: none;position: relative;}
+.ntrrpg ul li{padding-left: 12px; }
+.ntrrpg ul li::before {content: "•"; font-weight: bold;position: absolute;left: 0;width: 12px;}
+.ntrrpg ol {counter-reset: list-counter;}
+.ntrrpg ol li{padding-left: 18px; }
+.ntrrpg ol li::before {content: counter(list-counter) ". ";counter-increment: list-counter;font-weight: bold;position: absolute;left: 0;width: 18px; }
+.ntrrpg ul li p,.ntrrpg ol li p {margin-left: 0; }
+.ntrrpg blockquote{border-left:5px solid #0969da;border-radius:10px;padding:5px 10px;margin: 0;}
+.ntrrpg-l{line-height:1.8}
+.ntrrpg-l li{white-space: nowrap;overflow: hidden}
+.ntrrpg-l li span{display: inline-block;}
+
+ .main {position: relative;}
+ .box {background-color: #fff;padding: 20px;border: 1px solid #ccc;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+ .box-over {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(255, 255, 255, 1); z-index: 999; display: flex;justify-content: center;align-items: center;}
+ .box-content {position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 1000; background-color: #fff;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.pre-next .pre,.pre-next .next{margin-bottom:10px;}
+@media screen and (max-width: 560px) {
+    .ntrrpg-h {padding: 35px 0 20px 0;justify-content: flex-start;}
+    .ntrrpg-h .ntrrpg-m {margin-right: -2px;text-align: left;}
+    .ntrrpg-h .ntrrpg-m a {margin: 2px 5px;font-size: 15px;}
+}
+</style></head><body><div class="ntrrpg-h"><a href="/" class="logo"></a><nav class="ntrrpg-m"></nav></div><div class="main"><div class="ntrrpg"><h1>绅士游戏库｜黄油游戏：牛头人、RPG、SLG、PC端、安卓端</h1><div class="ntrrpg-a" id="ntrrpg-a-01"></div><p>尊敬的绅士玩家们，欢迎莅临您的私人游戏圣殿——绅士游戏库。这是一个为追求极致体验的您所打造的精密系统，而非简单的资源列表。我们深刻理解，真正的需求在于精准与深度。因此，本库以强大的标签化架构为核心，为您提供前所未有的检索与控制能力，助您在黄油游戏的宇宙中，尤其是牛头人这一深邃领域，以及RPG与SLG两大经典类型中，于PC端和安卓端之上，精准定位您的终极目标。</p>
+ <p>网站资源库在线下载地址:  <a href="https://www.ntrku.com" target="_bank">             https://www.ntrku.com</a></p>
+<p>核心定位：垂直深耕牛头人宇宙</p>
+
+<p>“牛头人”（NTR）题材以其复杂的情感张力和独特的戏剧冲突，构成了成人游戏世界中一个庞大而自洽的星系。本游戏库并未泛泛而谈，而是对此进行了垂直深入的深耕。 我们建立了可能是最完善的NTR标签系统，远超简单的题材分类。您可以通过精细的子标签进行筛选，例如：</p>
+
+<p>视角选择：苦主视角、黄毛视角、女主视角、上帝视角。</p>
+
+<p>情节类型：隐奸、强制、自愿、堕落、报复。</p>
+
+<p>情感基调：虐心、背德、爽快、无奈、治愈。 这种颗粒级的分类，让您不再需要大海捞针，而是能像一位经验丰富的鉴赏家，直接调取最符合您当下心境的那一款作品，探索人性中最复杂的幽微之地。</p>
+
+<p>类型聚焦：RPG与SLG的深度解析</p>
+
+<p>在众多游戏类型中，RPG（角色扮演） 与SLG（模拟策略） 因其极高的互动性和代入感，与成人内容的结合往往能产生最奇妙的化学反应。本库对此给予了重点关照。</p>
+
+<p>RPG专区：这里是叙事与体验的王国。您将化身主角，在精心构建的世界中探索、互动、做出抉择并承担后果。库内收录了从线性叙事到开放世界、从王道冒险到黑暗沉沦的各种RPG杰作，每一款都旨在提供一段难忘的人生旅程。</p>
+
+<p>SLG专区：这里是智慧与策略的竞技场。无论是时间管理、资源分配、人际关系经营还是战术布局，SLG游戏能提供一种“导演”般的快感。您通过的每一个关卡、达成的每一个结局，都是您运筹帷幄的证明。本库收录了各种烧脑又刺激的SLG精品，满足您的掌控欲。</p>
+
+<p>平台无忧：PC与安卓的精准交付</p>
+
+<p>本游戏库的每一个条目都经过严格验证，清晰标注其运行平台——PC（电脑） 或安卓（移动设备）。</p>
+
+<p>PC端游戏：为您锁定那些需要顶级画质、强劲性能和完整键盘鼠标操作来实现最佳体验的大作。</p>
+
+<p>安卓端游戏：则为您筛选出所有完美适配触屏操作、可随时随地开启的便携式快乐。 您再也无需担心下载后无法运行的尴尬，精准的平台标签确保了从库到手的无缝衔接。</p>
+
+<p>总结而言，这座绅士游戏库是一件为您量身打造的精密的工具。它代表着效率、深度与品质。无论您的目标是探索牛头人的情感深渊，还是体验RPG/SLG的玩法乐趣，无论您使用何种设备，这里都能为您提供最精准的路径。现在，就请开始您的精准探索之旅吧。</p><div class="ntrrpg-a" id="ntrrpg-a-02"></div><div class="pre-next"><div class="pre">上一篇：<a href="/html/001/001/t24.html">黄油玩家必备：按类型(RPG/SLG/ACT/ADV)和平台(PC/安卓)筛选游戏大全</a></div><div class="next">下一篇：暂无</div></div></div></div><div class="ntrrpg-f"><span>Copyright © 2021-2025黄油游戏资源库</span></div></body></html>
